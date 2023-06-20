@@ -1,16 +1,14 @@
-# flutter_clickable
+# Flutter splash effect
 
-A new Flutter project.
+## Screenshots
+<p float="left">
+  <img src="screenshots/home_page.png" width="200" />
+  <img src="screenshots/layout_issues.png" width="200" /> 
+  <img src="screenshots/layout_fixed.png" width="200" />
+</p>
 
-## Getting Started
+The layout with issues doesn't show correct ripple effect when clicked.
+Al though it does the same thing with tap event, but the layout doesn't give good user experience.
 
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+In the fixed version of layout, all the boxes have proper splash effect and layout is adjusted
+to provide best user experience while interacting with it.
